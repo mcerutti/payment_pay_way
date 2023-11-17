@@ -1,0 +1,573 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_pay_way
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20221104\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-25 20:31+0000\n"
+"PO-Revision-Date: 2023-10-25 20:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_address_validation_code
+msgid "Address validation code"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__65
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__65
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__65
+msgid "American Express"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__111
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__111
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__111
+msgid "American Express Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/controllers/controllers.py:0
+#, python-format
+msgid "An error occurred during the processing of this payment."
+msgstr "Ocurrió un error mientras procesabamos el pago"
+
+#. module: payment_pay_way
+#. openerp-web
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#, python-format
+msgid "An error occurred when displayed this payment form."
+msgstr "Se produjo un error al mostrar este formulario de pago."
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__payway_secret_key
+msgid "Api Key"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__30
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__30
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__30
+msgid "ArgenCard"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__50
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__50
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__50
+msgid "BBPS"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_token__payway_bin
+msgid "Bin"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "CUIL"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.payway_checkout
+msgid "CVV"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__108
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__108
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__108
+msgid "Cabal Débito Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__63
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__63
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__63
+msgid "Cabal Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__48
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__48
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__48
+msgid "Caja de Pagos"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Card"
+msgstr "Tarjeta"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_card_authorization_code
+msgid "Card Authorization code"
+msgstr "Código de Autorización"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Card Code"
+msgstr "Codigo de Tarjeta"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Card Holder"
+msgstr "Titular de la Tarjeta"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Card Number"
+msgstr "Numero de Tarjeta"
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__51
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__51
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__51
+msgid "Cobro Express"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__34
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__34
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__34
+msgid "CoopePlus"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__62
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__62
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__62
+msgid "CrediGuia"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__38
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__38
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__38
+msgid "Credimás"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model,name:payment_pay_way.model_account_card
+msgid "Credit Card"
+msgstr "Tarjeta de Crédito"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__payway_cybersource
+msgid "CyberSource"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "DNI"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#, python-format
+msgid "Decidir healthcheck error"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#, python-format
+msgid "Decidir is disabled"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__8
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__8
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__8
+msgid "Diners Club"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__60
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__60
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__60
+msgid "Distribution"
+msgstr "Distribución"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__103
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__103
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__103
+msgid "Favacard"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__54
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__54
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__54
+msgid "Grupar"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Identification"
+msgstr "Documento"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.payway_checkout
+msgid "Installments"
+msgstr "Cuotas"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_payment_instalment
+msgid "Instalment"
+msgstr "Cuota"
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__29
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__29
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__29
+msgid "Italcred"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "MM"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__106
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__106
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__106
+msgid "Maestro Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__105
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__105
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__105
+msgid "MasterCard Debit Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__104
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__104
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__104
+msgid "MasterCard Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__payway_commerce
+msgid "N. commerce"
+msgstr "N. comercio"
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__42
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__42
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__42
+msgid "Nativa"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__109
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__109
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__109
+msgid "Nativa Prisma"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__37
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__37
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__37
+msgid "Nexo"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#, python-format
+msgid "No puedo devolver este pago"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#: code:addons/payment_pay_way/models/payment_payway.py:0
+#, python-format
+msgid "No puedo recuperar este pago"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "Número"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__25
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__25
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__25
+msgid "PagoFacil"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__55
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__55
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__55
+msgid "Patagonia 365"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model,name:payment_pay_way.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Método de Pago"
+
+#. module: payment_pay_way
+#: model:ir.model,name:payment_pay_way.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Método de Pago"
+
+#. module: payment_pay_way
+#: model:ir.model,name:payment_pay_way.model_payment_token
+msgid "Payment Token"
+msgstr "Token de pago"
+
+#. module: payment_pay_way
+#: model:ir.model,name:payment_pay_way.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Transacción de pago"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_payment_method
+msgid "Payment method"
+msgstr "Método de Pago"
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_transaction.py:0
+#: code:addons/payment_pay_way/models/payment_transaction.py:0
+#, python-format
+msgid "Payment transaction %s"
+msgstr "Transacción de pago %s"
+
+#. module: payment_pay_way
+#: model:account.payment.method,name:payment_pay_way.payment_method_payway
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_acquirer__provider__payway
+#: model:payment.acquirer,name:payment_pay_way.payment_acquirer_payway
+msgid "Payway"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__product_surcharge_id
+msgid "Product for use in financial surcharge"
+msgstr "Producto para uso en recargo financiero"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_acquirer__payway_public_key
+msgid "Public Api Key"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__52
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__52
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__52
+msgid "Qida"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__26
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__26
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__26
+msgid "RapiPago"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:payment.acquirer,auth_msg:payment_pay_way.payment_acquirer_payway
+msgid "Se ha autorizado tu pago."
+msgstr "Se ha autorizado tu pago."
+
+#. module: payment_pay_way
+#. openerp-web
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#: code:addons/payment_pay_way/static/src/js/payway.js:0
+#, python-format
+msgid "Server Error"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__44
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__44
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__44
+msgid "Tarjeta Carrefour / Cetelem"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__43
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__43
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__43
+msgid "Tarjeta Cencosud"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__56
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__56
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__56
+msgid "Tarjeta Club Día"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__61
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__61
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__61
+msgid "Tarjeta La Anónima"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__24
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__24
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__24
+msgid "Tarjeta Naranja"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__39
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__39
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__39
+msgid "Tarjeta Nevada"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__45
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__45
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__45
+msgid "Tarjeta PymeNacion"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__64
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__64
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__64
+msgid "Tarjeta SOL"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__23
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__23
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__23
+msgid "Tarjeta Shopping"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:payment.acquirer,display_as:payment_pay_way.payment_acquirer_payway
+msgid "Tarjeta de Debito o Credito"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,help:payment_pay_way.field_payment_acquirer__provider
+msgid "The Payment Service Provider to use with this acquirer"
+msgstr "El proveedor de servicios de pago a utilizar con este adquirente"
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/controllers/controllers.py:0
+#, python-format
+msgid "This payment has not been processed yet."
+msgstr "Este pago aún no ha sido procesado."
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_ticket
+msgid "Ticket"
+msgstr ""
+
+#. module: payment_pay_way
+#: code:addons/payment_pay_way/models/payment_transaction.py:0
+#, python-format
+msgid ""
+"To validate payment with payway  is necessary to have a product surcharge in"
+" the company of the payment transaction. Please check this in the Account "
+"Config"
+msgstr ""
+"Para validar el pago con payway es necesario tener un recargo del producto en"
+" la empresa de la transacción de pago. Verifique esto en la Cuenta "
+"Configuración"
+
+#. module: payment_pay_way
+#: model_terms:payment.acquirer,cancel_msg:payment_pay_way.payment_acquirer_payway
+msgid "Tu pago ha sido cancelado."
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:payment.acquirer,pending_msg:payment_pay_way.payment_acquirer_payway
+msgid ""
+"Tu pago ha sido procesado con éxito pero está en espera de tu aprobación."
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:payment.acquirer,done_msg:payment_pay_way.payment_acquirer_payway
+msgid "Tu pago se ha procesado con éxito. ¡Gracias!"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__59
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__59
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__59
+msgid "Tuya"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__1
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__1
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__1
+msgid "Visa"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__account_card__payway_method__31
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_token__payway_payment_method__31
+#: model:ir.model.fields.selection,name:payment_pay_way.selection__payment_transaction__payway_payment_method__31
+msgid "Visa Débito"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "YY"
+msgstr "AA"
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.payway_checkout
+msgid "cvv"
+msgstr ""
+
+#. module: payment_pay_way
+#: model_terms:ir.ui.view,arch_db:payment_pay_way.inline_form
+msgid "email"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_account_card__payway_method
+msgid "payway"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_transaction__payway_payment_id
+msgid "payway identification"
+msgstr ""
+
+#. module: payment_pay_way
+#: model:ir.model.fields,field_description:payment_pay_way.field_payment_token__payway_payment_method
+msgid "payway payment method"
+msgstr ""
