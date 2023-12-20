@@ -72,7 +72,7 @@ class PaymentTransaction(models.Model):
             'currency': 'ARS',
             'installments': int(kwargs['payway_payment_instalment']),
             'payment_type': 'single',
-            'establishment_name': company_name,
+            'establishment_name': self.acquirer_id.payway_establishment_name + " " + self.reference[:40],
             'email': self.partner_id.email,
             'sub_payments': [],
         }

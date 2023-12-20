@@ -6,6 +6,7 @@
       <field name="arch" type="xml">
           <xpath expr="//group[@name=&quot;acquirer&quot;]" position="inside">
               <group attrs="{'invisible': [('provider', '!=', 'payway')]}">
+                  <field attrs="{'required': [('provider', '=', 'payway'), ('state', '!=', 'disabled')]}" name="payway_establishment_name"/>
                   <field attrs="{'required': [('provider', '=', 'payway'), ('state', '!=', 'disabled')]}" name="payway_commerce"/>
                   <field attrs="{'required': [('provider', '=', 'payway'), ('state', '!=', 'disabled')]}" name="payway_public_key"/>
                   <field attrs="{'required': [('provider', '=', 'payway'), ('state', '!=', 'disabled')]}" name="payway_secret_key" password="True"/>

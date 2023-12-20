@@ -11,6 +11,9 @@ class PaymentAcquirer(models.Model):
         selection_add=[('payway', 'Payway')],
         ondelete={'payway': 'set default'}
     )
+    payway_establishment_name = fields.Char(
+        string='Est. Name',
+    )
     payway_commerce = fields.Char(
         string='N. commerce',
     )
